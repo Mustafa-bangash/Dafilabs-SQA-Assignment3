@@ -1,0 +1,30 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "E2E test automation suite for Muhammad Mustafa Khan portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:mobile": "playwright test --project=\"Mobile Chrome\"",
+    "test:all-browsers": "playwright test --project=chromium --project=firefox --project=\"Mobile Chrome\"",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "automation",
+    "portfolio"
+  ],
+  "author": "QA Intern - DafiLabs",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}

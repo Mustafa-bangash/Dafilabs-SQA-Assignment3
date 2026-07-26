@@ -1,0 +1,12 @@
+node_modules/
+venv/
+__pycache__/
+.pytest_cache/
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+*.pyc
+log.html
+report.html
+output.xml
